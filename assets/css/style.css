@@ -1,0 +1,138 @@
+/* sets universal selectors for the entire webpage */
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0; 
+}
+/* can be used with any value that is repeated throughout the webpage */
+:root {
+--background: rgb(238, 229, 216);
+}
+
+/* sets the main section as a flexbox */
+main {
+    display: flex;
+    flex-wrap:wrap;
+}
+
+/* sets the background color of the body of the webpdage */
+body {
+    background-color: var(--background);
+}
+
+/* sets the header class elements of the webpage */
+.header {
+    padding: 20px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    background-color: var(--background);
+    color: black;
+    text-align: center;
+}
+
+/* sets the link elements within the header section */
+header ul {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    padding: 20px;
+    border-style: solid;
+    background-color: burlywood;
+    }
+
+/* sets the color of the link elements within the header section */
+a {
+    color: black;
+    text-decoration: none;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/* sets the section elements of the webpage */
+.section-content {
+    align-items: flex-start;
+    width: 90%;
+    margin: 1% auto;
+    border-style: solid;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/* sets the about-me class elements */
+.about-me {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* sets the paragraph of the about-me section */
+p {
+    padding: 20px;
+    text-align: center;
+ }
+
+ /* sets the sections-one-image class element */
+.sections-one-image {
+    width: 50%;
+    border-radius: 2%;
+    
+}
+
+/* sets the ul in the my-work class element */
+.my-work ul {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+
+}
+
+/* sets the list type of the ul in the my-work class element */
+.my-work ul li {
+    list-style-type: none;
+}
+
+/* sets the images in the my-work class element */
+.my-work ul li img {
+    list-style-type: none;
+    padding: 5px;
+    border-style:ridge;
+    border-width: 10px;
+    max-width: 200px;
+    border-radius: 2%;  
+    border-color: white; 
+}
+
+/* sets the contact-me class elemtents */
+.contact-me {
+    display: flex;
+    padding: 50px;
+    justify-content: center;
+    flex-direction:column;   
+}
+
+/* sets the ul of the contact-me class elements */
+.contact-me ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+/* sets the list type of the ul in the contact-me class elements */
+.contact-me nav ul li {
+    list-style-type: none;
+    border-style:ridge;
+    border-width: 10px;
+    border-radius: 2%;
+    padding: 10px;
+    text-align: center; 
+}
+
+/* sets the h2 elements of the section-content */
+h2 {
+    text-align:center;
+    padding: 50px;  
+    display: block;
+}
+
+/* sets the image elements of the section-content */
+img {
+    display:block;  
+}
