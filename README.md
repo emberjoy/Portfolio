@@ -6,7 +6,7 @@ This Portfolio web application was created to showcase my work as a web devloper
 
 ## Usage 
 
-[Screenshot of Deployed Application](./assets/images/portfolio-screenshot.png)
+[Screenshot of Deployed Application](./assets/images/screenshot-portfolio.png)
 
 The following is a link to the deployed application: 
 https://emberjoy.github.io/Portfolio/
