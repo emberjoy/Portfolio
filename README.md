@@ -9,4 +9,4 @@ This Portfolio web application was created to showcase my work as a web devloper
 [Screenshot of Deployed Application](./assets/images/portfolio-screenshot.png)
 
 The following is a link to the deployed application: 
-https://emberjoy.github.io/horiseon-code-refactor-/
+https://emberjoy.github.io/Portfolio/
